@@ -57,10 +57,7 @@
 </div>
 </details>
 
-# CHeatShot for react
+# Cheat sheet for react
 
-
-<details>
-<summary>rfce to define arrow function component</summary>
-</details>
+<p>rfce to define arrow function component</p>
 
