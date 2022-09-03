@@ -59,5 +59,5 @@
 
 # Cheat sheet for react
 
-<p>rfce to define arrow function component</p>
+<p><b>rfce</b> to define arrow function component</p>
 
