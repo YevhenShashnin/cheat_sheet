@@ -61,3 +61,12 @@
 
 <p><b>rfce</b> to define arrow function component</p>
 
+# SOLID principles
+
+S - the Single responsibility Principle
+   class a class should do one thing and therefore it should have only a single reason to change
+   antipatern GodObject
+O - Open - Closed Principle
+   open to extansion and closed to modification
+   modification mean changing the code of an existing class, and extension means adding new functionality.
+
