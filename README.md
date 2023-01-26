@@ -91,5 +91,21 @@
        <br/>
        The Dependency Inversion principle states that our classes should depend upon interfaces or abstract classes instead of concrete classes and functions.
    </li>
- 
 </ul>
+ # JS (ES 5)
+ <details>
+     <b>Loops</b>
+     <ul>
+         <li><b>while</b> statement creates a loop that executes a specified statement as long as the test condition evaluates to true. The condition is evaluated before executing the statement. </li>
+         <li><b>for</b> statement creates a loop that consists of three optional expressions, enclosed in parentheses and separated by semicolons, followed by a statement (usually a block statement) to be executed in the loop.</li>
+     </ul>
+     <b>If else condition</b>
+     <p>The if...else statement executes a statement if a specified condition is truthy. If the condition is falsy, another statement in the optional else clause will be executed.</p>
+     <b>Switch construction</b>
+     <p>The switch statement evaluates an expression, matching the expression's value against a series of case clauses, and executes statements after the first case clause with a matching value, until a break statement is encountered. The default clause of a switch statement will be jumped to if no case matches the expression's value.</p>
+     <b>conditional (ternary) operator</b>
+     <p>The conditional (ternary) operator is the only JavaScript operator that takes three operands: a condition followed by a question mark (?), then an expression to execute if the condition is truthy followed by a colon (:), and finally the expression to execute if the condition is falsy. This operator is frequently used as an alternative to an if...else statement.</p>
+    <b>Interaction: alert, prompt, confirm</b>
+ </details>
+
+
