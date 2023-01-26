@@ -108,6 +108,15 @@
      <b>conditional (ternary) operator</b>
      <p>The conditional (ternary) operator is the only JavaScript operator that takes three operands: a condition followed by a question mark (?), then an expression to execute if the condition is truthy followed by a colon (:), and finally the expression to execute if the condition is falsy. This operator is frequently used as an alternative to an if...else statement.</p>
     <b>Interaction: alert, prompt, confirm</b>
+     <ul>
+         <li><b>alert</b><p>show modal window with text and button OK. User can't interact with the page, until press ok</p></li>
+         <li>function <b>prompt</b> accepts two arguments: title and default(optional). Shows Modal with input that have default value.</li>
+         <li><b>confirm</b>accepts question. Shows modal with two buttons OK(true) and CANCEL(false).</li>
+     </ul>
+     <b>strict vs none-strict comparison</b>
+     <p>none strict comparison convert and compare operands that are of different types.</p>
+     <b>Hoisting</b>
+     <p>JavaScript Hoisting refers to the process whereby the interpreter appears to move the declaration of functions, variables or classes to the top of their scope, prior to execution of the code.</p>
  </details>
 
 
