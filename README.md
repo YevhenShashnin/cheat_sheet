@@ -92,8 +92,10 @@
        The Dependency Inversion principle states that our classes should depend upon interfaces or abstract classes instead of concrete classes and functions.
    </li>
 </ul>
- # JS (ES 5)
+
+# JS (ES 5)
  <details>
+  <summary>Details</summary>
      <b>Loops</b>
      <ul>
          <li><b>while</b> statement creates a loop that executes a specified statement as long as the test condition evaluates to true. The condition is evaluated before executing the statement. </li>
