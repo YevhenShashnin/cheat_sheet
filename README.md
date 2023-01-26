@@ -62,37 +62,40 @@
 <p><b>rfce</b> to define arrow function component</p>
 
 # SOLID principles
-<ul>
-   <li>
-       S - the Single responsibility Principle
-       <br/>
-       class a class should do one thing and therefore it should have only a single reason to change
-       antipatern GodObject
-   </li>
-   <li>
-       O - Open - Closed Principle
-       <br/>
-       open to extansion and closed to modification
-       <br/>
-       modification mean changing the code of an existing class, and extension means adding new functionality.
-   </li>
+<details>
+ <summary>principles</summary>
+ <ul>
     <li>
-       L - Liskov Substitution Principle
-       <br/>
-       The Liskov Substitution Principle states that subclasses should be substitutable for their base classes.
-   </li>
+        S - the Single responsibility Principle
+        <br/>
+        class a class should do one thing and therefore it should have only a single reason to change
+        antipatern GodObject
+    </li>
     <li>
-       I - Interface Segregation Principle
-       <br/>
-       Segregation means keeping things separated, and the Interface Segregation Principle is about separating the interfaces.
-   </li>
-    <li>
-       D - Dependency Inversion Principle
-       <br/>
-       The Dependency Inversion principle states that our classes should depend upon interfaces or abstract classes instead of concrete classes and functions.
-   </li>
-</ul>
-
+        O - Open - Closed Principle
+        <br/>
+        open to extansion and closed to modification
+        <br/>
+        modification mean changing the code of an existing class, and extension means adding new functionality.
+    </li>
+     <li>
+        L - Liskov Substitution Principle
+        <br/>
+        The Liskov Substitution Principle states that subclasses should be substitutable for their base classes.
+    </li>
+     <li>
+        I - Interface Segregation Principle
+        <br/>
+        Segregation means keeping things separated, and the Interface Segregation Principle is about separating the interfaces.
+    </li>
+     <li>
+        D - Dependency Inversion Principle
+        <br/>
+        The Dependency Inversion principle states that our classes should depend upon interfaces or abstract classes instead of concrete classes and functions.
+    </li>
+ </ul>
+</details>
+ 
 # JS (ES 5)
  <details>
   <summary>Details</summary>
