@@ -120,6 +120,27 @@
      <p>none strict comparison convert and compare operands that are of different types.</p>
      <b>Hoisting</b>
      <p>JavaScript Hoisting refers to the process whereby the interpreter appears to move the declaration of functions, variables or classes to the top of their scope, prior to execution of the code.</p>
+     <b>Usage of "var". How does variable behave without "var"?</b>
+<p>Variable without var became global variable. Also global variable can be deleted</p>
+<b>stricty mode</b>
+<p>'use strict' can be defined in two ways: globally and locally. Globally is two define it in first line of code. Locally means inside a function. </p>
+<p>Benefits of strict mode:</p>
+<ul>
+    <li>Prevent accidental creation of global variables</li>
+    <li>Prevent duplicating parameter names in a function</li>
+    <li>Prevent writing to read-only properties</li>
+    <li>variable can not be used before it is declared</li>
+</ul>
+<b>"eval is evil". Why?</b>
+<p>The eval() function evaluates JavaScript code represented as a string and returns its completion value. </p>
+<p>In eval’s case, the costs are performance, security, and difficulties in debugging.</p>
+<ul>
+    <li>Performance. Because it compiles the sting at runtime</li>
+    <li>Security risks. Can be execute infinity loops or stolen some data</li>
+    <li>Difficulties in debugging</li>
+</ul>
+<b>Set/get/delete object properties/methods</b>
+
  </details>
 
 
