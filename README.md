@@ -144,7 +144,6 @@
  </details>
  
 # Objects
-
  <details>
   <summary>Details</summary>
     Five ways to create objects
