@@ -142,5 +142,52 @@
 <b>Set/get/delete object properties/methods</b>
 
  </details>
+# Objects
+ <details>
+  <summary>Details</summary>
+    Five ways to create objects
 
+<ul>
+    <li>
+        <h5>Object literals</h5>
+        <p>let obj = { obj: 'JS is great" }</p>
+    </li>
+    <li>
+        <h5>New Operator  or Constructor</h5>
+        <p>function Music(style) { this.style = style }</p>
+        <p>let rap = new Music('rap')</p>
+    </li>
+    <li>
+        <h5>Object create</h5>
+        <p>let Car = { model: 'BMW' }</p>
+        <p>let ElectricCar = Object.create(Car)</p>
+    </li>
+    <li>
+        <h5>Class</h5>
+        <p>class Car { constructor(model) { this.model = model } }</p>
+        <p>let BMW = new Car('BMW')</p>
+    </li>
+    <li>
+        <h5>Spread operators</h5>
+        <p>You can use it when destructuring other object to create new</p>
+        <p>You can use it in object literals</p>
+    </li>
+</ul>
+
+<p>Here i need also say about defineProperty. You can use it in all 5 ways. It helps to define Property Descriptors (writable, enumerable, configurable) </p>
+<p>let cat = { name: 'Mur' }</p>
+<p>Object.defineProperty(cat, 'name', { writable: false, enumerable: true, configurable: false })</p>
+<p>Object.defineProperty(car, "age", { writable: true, enumerable: true, configurable: false, value: 3 })</p>
+<p>Changing the value of configurable can be done only once</p>
+<p>Another important thing you should keep in mind is that even if the configurable is set to false, the writable can be changed from true to false - but not vice versa</p>
+<p>You cannot delete a property for which the configurable is set to false. </p>
+<p>If enumerable is false it won't be available in statements as fro..in loop</p>
+<p>var cat = { name: 'foo', age: 9 }</p>
+<p>console.log(cat.name); // foo </p>
+<p>console.log('name' in cat); // true </p>
+<p>To check if thew property enumerable you need to use propertyIsEnumerable method</p>
+<p>var cat = { name: 'foo', age: 9 }</p>
+<p>Object.defineProperty(cat, 'name', { enumerable: false });</p>
+<p>console.log(cat.propertyIsEnumerable("name")); // false </p>
+ </details>
 
