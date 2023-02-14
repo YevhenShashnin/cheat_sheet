@@ -190,5 +190,29 @@
 <p>var cat = { name: 'foo', age: 9 }</p>
 <p>Object.defineProperty(cat, 'name', { enumerable: false });</p>
 <p>console.log(cat.propertyIsEnumerable("name")); // false </p>
+<b>Object-to-primitive</b>
+            <p>
+                The object-to-primitive conversion is called automatically by many built-in functions and operators that
+                expect a primitive as a value.
+            </p>
+            <p>There are 3 types (hints) of it:</p>
+            <ul>
+                <li>"string" (for alert and other operations that need a string)</li>
+                <li>"number" (for maths)</li>
+                <li>"default" (few operators, usually objects implement it the same way as "number")</li>
+            </ul>
+            <p>The specification describes explicitly which operator uses which hint.</p>
+            <p>The conversion algorithm is:</p>
+            <ol>
+                <li>Call obj[Symbol.toPrimitive](hint) if the method exists,</li>
+                <li>Otherwise if hint is "string" try calling obj.toString() or obj.valueOf(), whatever exists.</li>
+                <li>Otherwise if hint is "number" or "default" </li>
+            </ol>
+            <p>All these methods must return a primitive to work (if defined).</p>
+            <p>
+                In practice, it’s often enough to implement only obj.toString() as a “catch-all” method for string
+                conversions that should return a “human-readable” representation of an object, for logging or debugging
+                purposes.
+            </p>
  </details>
 
