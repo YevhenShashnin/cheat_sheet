@@ -214,5 +214,26 @@
                 conversions that should return a “human-readable” representation of an object, for logging or debugging
                 purposes.
             </p>
+            <b>Ways to clone objects in JS</b>
+<ul>
+  <li>
+    spread operatir shallow copy
+    <p>const cloneFood = { ...food };</p>
+  </li>
+  <li>
+    Object.assign shallow copy
+    <p>also can do copy of properties to existing object</p>
+    <p>const cloneFood = Object.assign({}, food);</p>
+  </li>
+    Using JSON deep copy (except Date Symbols, Infinity and functions )
+    <p>const cloneFood = JSON.parse(JSON.stringify(food));</p>
+  <li>
+    Using library lodash deep copy
+  </li>
+  <li>
+    structuredClone() deep copy
+    <p>const clone = structuredClone(original);</p>
+  </li>
+</ul>
  </details>
 
