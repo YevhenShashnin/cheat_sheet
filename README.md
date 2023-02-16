@@ -139,8 +139,8 @@
     <li>Security risks. Can be execute infinity loops or stolen some data</li>
     <li>Difficulties in debugging</li>
 </ul>
-<b>Set/get/delete object properties/methods</b>
-
+<b>Garbage colector</b>
+<p>Colects value that to net refered anymore</p>
  </details>
  
 # Objects
@@ -235,5 +235,7 @@
     <p>const clone = structuredClone(original);</p>
   </li>
 </ul>
+<b>Getters and Setters in Object</b>
+<p>Give to us posibility to define methods in object that set and get value of it</p>
  </details>
 
