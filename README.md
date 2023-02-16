@@ -153,6 +153,9 @@
 </ul>
 <b>Object pointers reachability</b>
 <p>GC starts from roots(stack and global objects) and find all objects. And objects that are pointed from objects in the root. So all objects without poiners are for GC</p>
+ <b>Generational Heap Layout GC</b>
+<p>Three generation. When we first allocate the object it goes to Nursery(young generation). After fisrt GC it goes to Intermediate(young generation). After another GC it goes to Old Generation</p>
+
  </details>
  
 # Objects
