@@ -151,6 +151,8 @@
   </li>
   <li>For each unvisited heap object, free its memory</li>
 </ul>
+<b>Object pointers reachability</b>
+<p>GC starts from roots(stack and global variables) and find all objects. And objects that are pointed from objects in the root. So all objects without poiners are for GC</p>
  </details>
  
 # Objects
