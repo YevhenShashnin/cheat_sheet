@@ -141,6 +141,16 @@
 </ul>
 <b>Garbage colector</b>
 <p>Colects value that to net refered anymore</p>
+ <b>Mark and Sweep</b>
+<ul>
+  <li>
+    All object in a heap a marked as unvisited
+  </li>
+  <li>
+    For each global variable or variable in a stack start a graph traversal, marked ech visited object as visited
+  </li>
+  <li>For each unvisited heap object, free its memory</li>
+</ul>
  </details>
  
 # Objects
