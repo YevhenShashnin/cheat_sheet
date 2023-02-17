@@ -5,28 +5,28 @@
  В Js 8 типов данных
   <ul>
     <li>
-       <b>number</b> typeOf number. Целые и дробные.
+       <b>number</b> typeOf number. floating-point numbers. Primituve type. Object wrapper Number
     </li>
     <li>
-      <b>bigint</b> typeOf bigint. Целые большие числа.
+      <b>bigint</b> typeOf bigint. numeric primitive for large  numbers. Primituve type. Object wrapper BigInt
     </li>
     <li>
-       <b>boolean</b> typeOf boolean.
+       <b>boolean</b> typeOf boolean. Primituve type. Object wrapper Boolean
     </li>
     <li>
-       <b>string</b> typeOf string.
+       <b>string</b> typeOf string. Primituve type. Object wrapper String
     </li>
     <li>
-       <b>null</b> typeOf null. Неизвестное значение.
+       <b>null</b> typeOf object. Неизвестное значение. Primituve type. Object wrapper N/A
     </li>
     <li>
-       <b>undefined</b> typeOf undefined. Не присвоенное значение.
+       <b>undefined</b> typeOf undefined. Не присвоенное значение. Primituve type. Object wrapper N/A
     </li>
     <li>
-       <b>object</b> typeOf object. Сложные структуры данных.
+       <b>object</b> typeOf object. Objects are ad-hoc key-value pairs. 
     </li>
     <li>
-       <b>symblol</b> typeOf symblol. Для уникальных идентификаторов.
+       <b>symblol</b> typeOf symblol. Для уникальных идентификаторов. Primituve type. Object wrapper Symbol
     </li>
   </ul>
 </div>
@@ -252,5 +252,8 @@
 </ul>
 <b>Getters and Setters in Object</b>
 <p>Give to us posibility to define methods in object that set and get value of it</p>
+<b>Object freeze()</b>
+<p>Freezing an object is equivalent to preventing extensions and then changing all existing properties' descriptors' configurable to false — and for data properties, writable to false as well. Nothing can be added to or removed from the properties set of a frozen object. Any attempt to do so will fail, either silently or by throwing a TypeError exception (most commonly, but not exclusively, when in strict mode).</p>
+<p>Do shallow freeze</p>
  </details>
 
