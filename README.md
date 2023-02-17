@@ -169,7 +169,13 @@ class newClass {}
 <p>GC starts from roots(stack and global objects) and find all objects. And objects that are pointed from objects in the root. So all objects without poiners are for GC</p>
  <b>Generational Heap Layout GC</b>
 <p>Three generation. When we first allocate the object it goes to Nursery(young generation). After fisrt GC it goes to Intermediate(young generation). After another GC it goes to Old Generation</p>
-
+<b>Function types</b>
+<ul>
+  <li>Regular function: can return anything; always runs to completion after invocation</li>
+  <li>Generator function: returns a Generator object; can be paused and resumed with the yield operator <i>function*</i></li>
+  <li>Async function: returns a Promise; can be paused and resumed with the await operator <i>aync function</i></li>
+  <li>Async generator function: returns an AsyncGenerator object; both the await and yield operators can be used <i>aync function*</i></li>
+</ul>
  </details>
  
 # Objects
