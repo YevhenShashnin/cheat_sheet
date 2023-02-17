@@ -5,31 +5,45 @@
  В Js 8 типов данных
   <ul>
     <li>
-       <b>number</b> typeOf number. floating-point numbers. Primituve type. Object wrapper Number
+       <b>number</b> typeof number. floating-point numbers. Primituve type. Object wrapper Number
     </li>
     <li>
-      <b>bigint</b> typeOf bigint. numeric primitive for large  numbers. Primituve type. Object wrapper BigInt
+      <b>bigint</b> typeof bigint. numeric primitive for large  numbers. Primituve type. Object wrapper BigInt
     </li>
     <li>
-       <b>boolean</b> typeOf boolean. Primituve type. Object wrapper Boolean
+       <b>boolean</b> typeof boolean. Primituve type. Object wrapper Boolean
     </li>
     <li>
-       <b>string</b> typeOf string. Primituve type. Object wrapper String
+       <b>string</b> typeof string. Primituve type. Object wrapper String
     </li>
     <li>
-       <b>null</b> typeOf object. Неизвестное значение. Primituve type. Object wrapper N/A
+       <b>null</b> typeof object. Неизвестное значение. Primituve type. Object wrapper N/A
     </li>
     <li>
-       <b>undefined</b> typeOf undefined. Не присвоенное значение. Primituve type. Object wrapper N/A
+       <b>undefined</b> typeof undefined. Не присвоенное значение. Primituve type. Object wrapper N/A
     </li>
     <li>
-       <b>object</b> typeOf object. Objects are ad-hoc key-value pairs. 
+       <b>object</b> typeof object. Objects are ad-hoc key-value pairs. 
     </li>
     <li>
-       <b>symblol</b> typeOf symblol. Для уникальных идентификаторов. Primituve type. Object wrapper Symbol
+       <b>symblol</b> typeof symblol. Для уникальных идентификаторов. Primituve type. Object wrapper Symbol
     </li>
   </ul>
 </div>
+ const str = new String("String");
+const num = new Number(100);
+
+typeof str; // "object"
+typeof num; // "object"
+const func = new Function();
+typeof func; // "function"
+ 
+typeof newLetVariable; // ReferenceError
+typeof newConstVariable; // ReferenceError
+typeof newClass; // ReferenceError
+let newLetVariable;
+const newConstVariable = "hello";
+class newClass {}
 </details>
 
 # Eventloop Call stack Callback Queue WEB API 
