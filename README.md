@@ -1,8 +1,7 @@
-# Какие типы данных существуют в JavaScript?
+# Data types
 <details>
-<summary>Какие типы данных существуют в JavaScript?</summary>
+<summary>8 types</summary>
 <div>
- В Js 8 типов данных
   <ul>
     <li>
        <b>number</b> typeof number. floating-point numbers. Primituve type. Object wrapper Number
@@ -30,20 +29,11 @@
     </li>
   </ul>
 </div>
- const str = new String("String");
-const num = new Number(100);
-
-typeof str; // "object"
-typeof num; // "object"
-const func = new Function();
-typeof func; // "function"
- 
-typeof newLetVariable; // ReferenceError
-typeof newConstVariable; // ReferenceError
-typeof newClass; // ReferenceError
-let newLetVariable;
-const newConstVariable = "hello";
-class newClass {}
+  <p>In JavaScript, the typeof operator is used to determine the type of a value or variable. It returns a string indicating the data type of the value.</p>
+<p>const str = new String("String"); typeof str; // "object"</p>
+<p>const num = new Number(100); typeof num; // "object"</p>
+<p>const func = new Function(); typeof func; // "function"</p>
+<p>typeof is using after variable declaretion</p>
 </details>
 
 # Eventloop Call stack Callback Queue WEB API 
@@ -70,10 +60,6 @@ class newClass {}
  micro
 </div>
 </details>
-
-# Cheat sheet for react
-
-<p><b>rfce</b> to define arrow function component</p>
 
 # SOLID principles
 <details>
